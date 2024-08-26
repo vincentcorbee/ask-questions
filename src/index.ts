@@ -14,6 +14,7 @@ type Question = {
   value?: <T>(input: string) => T;
   show?: (answers: Answers) => boolean;
   default?: any;
+  type?: 'string' | 'number' | 'boolean';
 };
 
 type Answers = Record<string, any>;

@@ -7,5 +7,5 @@
     "target": "ESNext",
     "module": "CommonJS"
   },
-  "include": ["src"]
+  "include": ["src", "test.ts"]
 }
